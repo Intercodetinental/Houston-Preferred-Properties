@@ -1,0 +1,15 @@
+{
+  "name": "houston-preferred-properties",
+  "version": "1.0.0",
+  "description": "Connie Moreno Houston Preferred Properties",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Intercodetinental",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.4"
+  }
+}
