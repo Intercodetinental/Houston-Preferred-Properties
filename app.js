@@ -4,11 +4,15 @@ const exphbs  = require('express-handlebars');
 // this code initializes the application
 const app = express();
 
+// to add static images to page
+app.use(express.static('public'))
+
+
 
 // express - handlebars middleware
 // telling the system, that wwe want to use the handlebars template engine
 // add ==                       {defaultLayout: 'main'}
-app.engine('handlebars', exphbs({defaultLayout: 'main'}));
+app.engine('handlebars', exphbs({}));
 app.set('view engine', 'handlebars');
 
 
@@ -28,6 +32,23 @@ app.get('/', (req, res) => {
 // about route
 app.get('/about', (req, res) => {
     res.render('about');                    // always when going to new page use (( res.render ('whateverpage') ))
+});
+
+
+
+// ==============================================================  espanol routes
+app.get('/espanol', (req, res) => {
+    const title = 'Bienvenidos'
+    res.render('espanol', {
+        title: title
+    });
+});
+
+app.get('/sobre', (req, res) => {
+    const title = 'Bienvenidos'
+    res.render('sobre', {
+        title: title
+    });
 });
 
 
