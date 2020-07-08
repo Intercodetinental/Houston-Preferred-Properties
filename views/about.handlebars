@@ -4,15 +4,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="About Connie Moreno and her work in the Houston community for over 40 years. Helping families buy and sell their home and property arounf the Houston are. She will guide you through any of the real estate process.">
+    <title>Houston Preferred Properties</title>
 </head>
 
 <body>
-    {{!-- ==================================================== navbar --}}
+    
+
+
+
+    {{!-- =====================================================parallax --}}
+
+    <div class="parallax-container">
+        <div class="parallax"><img src="img/pexsmall.jpeg"></div>
+
+        {{!-- ==================================================== navbar --}}
 
     <nav>
-        <div class="nav-wrapper blue">
-            <a href="/" class="brand-logo"><img src="img/sun.png" alt="Sun rising over Houston Tx skyline" class="responsive"></a>
+        <div class="nav-wrapper black">
+            <a href="/" class="brand-logo center"><img src="img/sun.png" alt="Sun rising over Houston Tx skyline" width="70px" height="65px" class="responsive"></a>
             <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
             <ul class="right hide-on-med-and-down">
                 <li><a href="/">Home</a></li>
@@ -34,58 +44,53 @@
     </ul>
 
     {{!-- ====================================================  end navbar --}}
-
-
-    <div class="iris">
-        <div class="card transparent z-depth-5">
-            <img src="img/pexsmall.jpeg" alt="Skyblue house with green grass and clear blue" srcset="">
-
-        </div>
-
-        <div class="container">
+  
+        <div class="row container">
+            <h2 class="header darkyellow-text" style="text-align: center; padding-top: 8%">About</h2>
         </div>
     </div>
-    </div>
-    </div>
 
-
-    <div class="container">
-        <div class="row">
-
-            <div class="col s12 m4 l4">
-                <h3>Connie Moreno</h3>
-                <h5>Real Estate Broker</h5>
-
-            </div>
-            <div class="col s12 m4 l4">
-                <img src="img/thumbnail_1593789836841-1-1.png" alt="" srcset="" class="responsive-img" width="600"
-                    height="400"></div>
-
-            <div class="col s12 m4 l4">
-                <p>We are a residential real estate firm for investors, sellers, buyers, realtors and other agents,
-                    anyone working on foreclosures, short sales, and REO property. From condominium, land, lofts,
-                    townhouses, multifamily properties (including condo projects) and single-family homes. Our
-                    expertise includes commercial and residential real estate, including acquisitions, distressed
-                    homes, REO property management, in-house mortgage brokerage, re-financing, investment
-                    acquisitions, and remodeling of properties. We serve the Kingwood, Humble, Porter, New Caney,
-                    Splendora, and Spring area.</p>
-
-            </div>
-
-            <div class="container">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3453.5758638420452!2d-95.23933818493045!3d30.049023681880662!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640b2b1ffd8030f%3A0x5d6f150a4ca74cfa!2s1306%20Kingwood%20Dr%2C%20Kingwood%2C%20TX%2077339!5e0!3m2!1sen!2sus!4v1593699803380!5m2!1sen!2sus"
-                    width="100%" height="450px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
-                    tabindex="0"></iframe>
+    <div class="section white" style="padding-top: 10%;">
+        <div class="row container">
+                <div class="col s12 m4 l4" style="text-align: center; padding-right: 10%">
+                    <h3>Connie Moreno</h3>
+                    <h4>Broker</h4>
+                    <h4>Houston Preferred Properties</h4>
+                </div>
+                <div class="col s12 m4 l4">
+                    <img src="img/thumbnail_1593789836841-1-1.png" alt="Connie Moreno: Houston Preferred Properties Agent" width="500px" height="500px" class="responsive">
+                </div>
+                <div class="col s12 m4 l4" style="text-align:center; padding-left: 10%">
+                    <p style="font-size: medium;">
+                        We are a residential real estate firm for investors, sellers, buyers, realtors and other agents, anyone working on foreclosures, short sales, and REO property. From condominium, land, lofts, townhouses, multifamily properties (including condo projects) and single-family homes. Our expertise includes commercial and residential real estate, including acquisitions, distressed homes, REO property management, in-house mortgage brokerage, re-financing, investment acquisitions, and remodeling of properties. We serve the Kingwood, Humble, Porter, New Caney, Splendora, and Spring area.
+                    </p>
+                </div>
             </div>
         </div>
     </div>
 
-    <style>
-        div {
-            color: whitesmoke
-        }
-    </style>
+    <div class="section lightgrey">
+      <div class="row container">
+        <h2 class="header">Comment</h2>
+        <p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.</p>
+      </div>
+
+    <div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11533.619229716429!2d-95.23899120251275!3d30.04222921006072!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfb076e7d059322e!2sHouston%20Preferred%20Properties!5e0!3m2!1sen!2sus!4v1594143351257!5m2!1sen!2sus" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
+
+     {{!-- ===================================================== end parallax --}}
+
+
+
+    <script src="js/aboutsobre.js"></script>
+
+<style>
+    .responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+</style>
+
 
 </body>
 
